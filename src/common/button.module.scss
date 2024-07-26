@@ -1,0 +1,17 @@
+.primary {
+    display: flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--primary);
+    border: none;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--font-lato);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px; 
+    text-transform: uppercase;
+    cursor: pointer;
+}
