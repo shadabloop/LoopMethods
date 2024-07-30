@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Strategic Consulting",
+        "description": "Our blockchain experts develop tailored strategies and solutions aligned with your business model, from market research to implementation. Our end-to-end service ensures each aspect of your blockchain initiative is planned and executed, enhancing your strategic advantage in today’s dynamic market.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/fe64f5b6-c3df-49e8-bcdc-6e26729ade3d-Strategic-Consulting-1.svg.svg"
+    },
+    {
+        "title": "PoC and MVP Development",
+        "description": "We swiftly develop Proof of Concept (PoC) to validate solutions' feasibility and create functional prototypes to refine solutions, ensuring practicality, customer appeal, and competitive advantage before full-scale implementation, effectively meeting market and user needs.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f6b71e7f-d0dd-4671-90d5-a5fbbbe2cf39-PoC-and-MVP-Development.svg.svg"
+    },
+    {
+        "title": "Smart Contract Development",
+        "description": "We create smart contracts to automate workflows, enforce agreements, and ensure secure transactions. Whether it's supply chain management or decentralized finance, our contracts enhance efficiency, transparency, and trust, streamlining operations and reducing costs.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/82d80acd-769b-43e3-84df-fcfb2534e782-Smart-Contract-Development-3.svg.svg"
+    },
+    {
+        "title": "dApp Development",
+        "description": "We are experts in blockchain technology with a focus on security. We build decentralized applications for different industries, prioritizing security and user-friendly design. Our applications are compatible across various devices and operating systems for easy access.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ff418145-37be-4fd0-a232-3d52f66bdc64-dApp-development-2.svg.svg"
+    },
+    {
+        "title": "Blockchain Integration",
+        "description": "We offer a blockchain integration service to enhance business systems through expert implementation. From the selection of the appropriate blockchain platform to the optimization of performance and scalability, we oversee the entire integration process.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/36cfc7e4-48e8-4c1f-9f51-11104063327b-AI-Integration-and-Deployment.svg.svg"
+    },
+    {
+        "title": "Support and Maintenance",
+        "description": "Our team provides continuous support and maintenance for peak blockchain performance. We ensure security and updates through monitoring, regular updates, and swift issue resolution. By minimizing downtime and maximizing value, we help you focus on growing your business.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7f6f2a2b-9a73-43bc-8f9e-63305ba179e4-Support-and-Maintenance.svg.svg"
+    }
+]

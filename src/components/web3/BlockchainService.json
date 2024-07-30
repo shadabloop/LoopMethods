@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Custom dAPPS Development",
+        "description": "With expertise in Rust, Solidity, Golang and frameworks like Substrate and Brownie, we build next-gen dApps to support web3 projects. Our web3 developers stay focused on building customized web3 dApps rich in scalability, security and interoperability attributes.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2d9ad2d3-d466-47da-85b4-637fe1099e6d-Customized-Web3-dApps.svg.svg"
+    },
+    {
+        "title": "Defi Development",
+        "description": "We offer end-to-end DeFi development and consulting services to enterprises. We have a dedicated team of DeFi developers to build custom DeFi solutions like DeFi dApps, layer 2 solutions, automated market maker (AMM) non-custodial wallets, cross-chain DeFi exchanges, etc.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/00a69f7f-028b-4b9b-8478-4c030a393e79-Web3-DeFi-Development.svg.svg"
+    },
+    {
+        "title": "Metaverse Development",
+        "description": "We We build futuristic metaverse use cases and assets that drive real business value. Using blockchain, AR, VR and 3D reconstruction and emerging technologies, we build components like 3D immersive spaces, NFT marketplaces and web3wallets, avatars and self-sovereign identity.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/52a247e5-3f86-4269-a015-fc6b6c976cfb-Web3-Metaverse-development.svg.svg"
+    },
+    {
+        "title": "Web3 Gaming Development",
+        "description": "Our data development tools Unreal Engine 5 and Unity, our developers build new-age games like the widely popular “play-to-earn” and NFT-based multiplayer games. We further research trends across the gaming industry to meet evolving development needs.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/a46753a8-5351-4321-90b8-ebcf6854a05f-Web3-Gaming-Development.svg.svg"
+    },
+    {
+        "title": "Multi Chain Solutions",
+        "description": "We develop fully interoperable multi-chain web3 solutions and dApps, enabling users to access various isolated web3 platforms and participate in activities like trading. Also, our team integrates APIs, Oracle and DAO to your multi-chain solution, driving enhanced transparency and automation.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/038c0810-7223-438c-8645-107a85c69723-Web3-Multi-chain-Solutions.svg.svg"
+    },
+    {
+        "title": "Self-sovereign Identity",
+        "description": "We build an SSI identity system that helps enterprises provide users with freedom and personal autonomy across a safe and secure environment. Also, our team builds wallets and generates credentials for users’ identity authentication on various decentralized ecosystems.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/fd7c3621-2a4f-4ece-adee-922d8bdff2c7-Sovereignty.svg.svg"
+    }
+]

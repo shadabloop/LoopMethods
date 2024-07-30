@@ -1,0 +1,192 @@
+[
+    {
+        "name": "Block Chain",
+        "description": "EXPERT WEB3 SOLUTIONS USING BLOCKCHAIN, AI, AND CRYPTOGRAPHY !",
+        "title": "Boost business with advanced AI: deep learning, ML, NLP.",
+        "image": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2811c58a-da3e-4424-a99e-b74f070f5226-sf.png",
+        "cardData": [
+            {
+                "title": "DISCOVERY AND FEASIBILITY ANALYSIS",
+                "description": "Analyze client needs, identify impactful blockchain use cases, define project scope.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1372a1c6-cf98-43d3-8466-5895329a105a-Discovery-and-Feasibility-Analysis.svg.svg"
+            },
+            {
+                "title": "Development",
+                "description": "Develop smart contracts, frontend apps, APIs, and security measures.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7216088a-26d4-40f5-9681-0a0d05f62437-Development-2-1.svg.svg"
+            },
+            {
+                "title": "Testing and Quality Assurance",
+                "description": "Test smart contracts, APIs, apps; audit security, validate performance.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/6567b88b-e92d-4e7a-a6dc-fd9d652bf781-Testing-and-Quality-Assurance-3-1.svg.svg"
+            },
+            {
+                "title": "Strategy Development",
+                "description": "Tailor blockchain strategy, outline architecture, and design Proof of Concept.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/69722e29-8189-40dc-b64f-967f8c506b98-Strategy-Development-and-Consulting.svg.svg"
+            },
+            {
+                "title": "Optimization and Enhancement",
+                "description": "Monitor, optimize performance, security; incorporate feedback; explore interoperability with emerging tech.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            },
+            {
+                "title": "Deployment and Integration",
+                "description": "Deploy contracts, apps; integrate with systems; test in live environment.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            }
+        ]
+    },
+    {
+        "name": "Web 3",
+        "description": "Expert Web3 solutions using blockchain, AI, and cryptography !",
+        "title": "Our Value-Driven Web3 Application Development Process",
+        "image": "https://frequencyimage.s3.ap-south-1.amazonaws.com/78e64c0c-c5a0-40c3-b77e-7a53cbd5ede6-web3.png ",
+        "cardData": [
+            {
+                "title": "Project mapping",
+                "description": "We use strategic mapping to outline requirements, priorities, and challenges, streamlining strategies.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1372a1c6-cf98-43d3-8466-5895329a105a-Discovery-and-Feasibility-Analysis.svg.svg"
+            },
+            {
+                "title": "Technical Design",
+                "description": "We gather requirements, design a Web3 prototype, and perform user testing.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7216088a-26d4-40f5-9681-0a0d05f62437-Development-2-1.svg.svg"
+            },
+            {
+                "title": "Development",
+                "description": "Our developers code your Web3 project, preparing it for alpha, beta, and release phases.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/6567b88b-e92d-4e7a-a6dc-fd9d652bf781-Testing-and-Quality-Assurance-3-1.svg.svg"
+            },
+            {
+                "title": "Monitoring and maintance",
+                "description": "We monitor and maintain your Web3 solution to fix issues.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/69722e29-8189-40dc-b64f-967f8c506b98-Strategy-Development-and-Consulting.svg.svg"
+            },
+            {
+                "title": "testing and optimization",
+                "description": "We test, debug, and optimize your product.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            },
+            {
+                "title": "Deployment ",
+                "description": "Our developers deploy your Web3 solution to the mainnet. ",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            }
+        ]
+    },
+    {
+        "name": "Internet of Things",
+        "description": "EXPERT WEB3 SOLUTIONS USING BLOCKCHAIN, AI, AND CRYPTOGRAPHY !",
+        "title": "Boost business with advanced AI: deep learning, ML, NLP.",
+        "image": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2811c58a-da3e-4424-a99e-b74f070f5226-sf.png",
+        "cardData": [
+            {
+                "title": "DISCOVERY AND FEASIBILITY ANALYSIS",
+                "description": "Analyze client needs, identify impactful blockchain use cases, define project scope.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1372a1c6-cf98-43d3-8466-5895329a105a-Discovery-and-Feasibility-Analysis.svg.svg"
+            },
+            {
+                "title": "Development",
+                "description": "Develop smart contracts, frontend apps, APIs, and security measures.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7216088a-26d4-40f5-9681-0a0d05f62437-Development-2-1.svg.svg"
+            },
+            {
+                "title": "Testing and Quality Assurance",
+                "description": "Test smart contracts, APIs, apps; audit security, validate performance.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/6567b88b-e92d-4e7a-a6dc-fd9d652bf781-Testing-and-Quality-Assurance-3-1.svg.svg"
+            },
+            {
+                "title": "Strategy Development",
+                "description": "Tailor blockchain strategy, outline architecture, and design Proof of Concept.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/69722e29-8189-40dc-b64f-967f8c506b98-Strategy-Development-and-Consulting.svg.svg"
+            },
+            {
+                "title": "Optimization and Enhancement",
+                "description": "Monitor, optimize performance, security; incorporate feedback; explore interoperability with emerging tech.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            },
+            {
+                "title": "Deployment and Integration",
+                "description": "Deploy contracts, apps; integrate with systems; test in live environment.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            }
+        ]
+    },
+    {
+        "name": "AI & ML",
+        "description": "EXPERT WEB3 SOLUTIONS USING BLOCKCHAIN, AI, AND CRYPTOGRAPHY !",
+        "title": "Boost business with advanced AI: deep learning, ML, NLP.",
+        "image": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2811c58a-da3e-4424-a99e-b74f070f5226-sf.png",
+        "cardData": [
+            {
+                "title": "DISCOVERY AND FEASIBILITY ANALYSIS",
+                "description": "Analyze client needs, identify impactful blockchain use cases, define project scope.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1372a1c6-cf98-43d3-8466-5895329a105a-Discovery-and-Feasibility-Analysis.svg.svg"
+            },
+            {
+                "title": "Development",
+                "description": "Develop smart contracts, frontend apps, APIs, and security measures.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7216088a-26d4-40f5-9681-0a0d05f62437-Development-2-1.svg.svg"
+            },
+            {
+                "title": "Testing and Quality Assurance",
+                "description": "Test smart contracts, APIs, apps; audit security, validate performance.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/6567b88b-e92d-4e7a-a6dc-fd9d652bf781-Testing-and-Quality-Assurance-3-1.svg.svg"
+            },
+            {
+                "title": "Strategy Development",
+                "description": "Tailor blockchain strategy, outline architecture, and design Proof of Concept.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/69722e29-8189-40dc-b64f-967f8c506b98-Strategy-Development-and-Consulting.svg.svg"
+            },
+            {
+                "title": "Optimization and Enhancement",
+                "description": "Monitor, optimize performance, security; incorporate feedback; explore interoperability with emerging tech.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            },
+            {
+                "title": "Deployment and Integration",
+                "description": "Deploy contracts, apps; integrate with systems; test in live environment.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            }
+        ]
+    },
+    {
+        "name": "Software Development",
+        "description": "EXPERT WEB3 SOLUTIONS USING BLOCKCHAIN, AI, AND CRYPTOGRAPHY !",
+        "title": "Our Software Development Process",
+        "image": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2811c58a-da3e-4424-a99e-b74f070f5226-sf.png",
+        "cardData": [
+            {
+                "title": "DISCOVERY AND FEASIBILITY ANALYSIS",
+                "description": "Analyze client needs, identify impactful blockchain use cases, define project scope.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1372a1c6-cf98-43d3-8466-5895329a105a-Discovery-and-Feasibility-Analysis.svg.svg"
+            },
+            {
+                "title": "Development",
+                "description": "Develop smart contracts, frontend apps, APIs, and security measures.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7216088a-26d4-40f5-9681-0a0d05f62437-Development-2-1.svg.svg"
+            },
+            {
+                "title": "Testing and Quality Assurance",
+                "description": "Test smart contracts, APIs, apps; audit security, validate performance.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/6567b88b-e92d-4e7a-a6dc-fd9d652bf781-Testing-and-Quality-Assurance-3-1.svg.svg"
+            },
+            {
+                "title": "Strategy Development",
+                "description": "Tailor blockchain strategy, outline architecture, and design Proof of Concept.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/69722e29-8189-40dc-b64f-967f8c506b98-Strategy-Development-and-Consulting.svg.svg"
+            },
+            {
+                "title": "Optimization and Enhancement",
+                "description": "Monitor, optimize performance, security; incorporate feedback; explore interoperability with emerging tech.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            },
+            {
+                "title": "Deployment and Integration",
+                "description": "Deploy contracts, apps; integrate with systems; test in live environment.",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/b138386a-af43-4835-9487-b9ef14ba6ae2-Deployment-and-Integration-2-1.svg.svg"
+            }
+        ]
+    }
+]

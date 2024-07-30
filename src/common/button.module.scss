@@ -4,14 +4,21 @@
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background: var(--primary);
+    background-color: var(--primary);
     border: none;
     color: var(--white);
     text-align: center;
     font-family: var(--font-lato);
     font-size: 18px;
     font-weight: 700;
-    line-height: 28.8px; 
+    line-height: 28.8px;
     text-transform: uppercase;
     cursor: pointer;
+    box-shadow: 0px 10px 40px -10px rgba(123, 193, 141, 0.61);
+    transition: background-color .3s ease-in-out;
+
+    &:hover {
+        background-color: var(--purple);
+        box-shadow: 0px 10px 40px -10px rgba(135, 12, 109, 0.41);
+    }
 }

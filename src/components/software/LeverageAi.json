@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Software Consulting ",
+        "description": "At loopmethods, we offer comprehensive software consulting services. We analyze your needs, conceptualize solutions, and recommend technology stacks. Our experts guide you from user acquisition to monetization, planning growth strategies in AI, Blockchain, and IoT. Partner with us to transform ideas into reality with strategic insight and development expertise.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/5b0d9506-5043-491c-abb6-44169d9bb203-Software-Consulting.svg.svg"
+    },
+    {
+        "title": "PoC and MVP Development",
+        "description": "We rapidly develop Proof of Concepts (PoCs) to validate solution feasibility and potential, aiding clients in making informed investment decisions. Our functional prototypes assess practicality, customer appeal, and competitive advantage, refining the solution to ensure it meets market and user needs before full-scale implementation.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/e29bb2d9-7748-4201-b4a8-187623238d22-PoC-and-MVP-Development.svg.svg"
+    },
+    {
+        "title": "UI/UX Design",
+        "description": "Our UX/UI design approach focuses on understanding your audience and needs, creating visually appealing and intuitive interfaces. We ensure our designs reflect your brand and enhance user satisfaction. Tailored for web or desktop applications, our UX/UI services elevate your software and drive user engagement.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/78c1d258-a8f0-4605-a9c5-0c6a5b94ba17-Design-and-Architecture.svg.svg"
+    },
+    {
+        "title": "AI Software Development",
+        "description": "We specialize in crafting custom AI software solutions tailored to your unique requirements, excelling in NLP, ML, and computer vision. Our solutions enhance operational efficiency, support decision-making, and foster innovation across industries.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1508bea2-c7ba-4fe3-8f01-14b7320ebdff-Custom-Blockchain-Development-1.svg.svg"
+    },
+    {
+        "title": "Generative AI ",
+        "description": "From chatbots to recommendation systems and predictive analytics tools, we develop GenAI software solutions for a wide array of use cases spanning various industries. Our intelligent and adaptable generative AI solutions, built on foundational models such as GPT-4, LLaMA, and PaLM 2, enable businesses to streamline operations, enhance decision-making processes, anddeliver personalized experiences to their customers.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3f667feb-bb2f-4b1d-9e10-6b8b3fb6cc42-Strategic-Consulting-1.svg.svg"
+    },
+    {
+        "title": "Blockchain Development",
+        "description": "With extensive expertise in blockchain protocols like Ethereum, Hyperledger, Stellar, and Solana, we build custom solutions tailored to your needs—from smart contracts and NFT marketplaces to DEXs, bridges, metaverse spaces, and tokens. Our focus on quality, compliance, security, innovation, and refinement is unwavering.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/1508bea2-c7ba-4fe3-8f01-14b7320ebdff-Custom-Blockchain-Development-1.svg.svg"
+    },
+    {
+        "title": "Software Audit Service",
+        "description": "We conduct thorough software audits to uncover vulnerabilities and security risks, addressing issues through recommended solutions like patching or upgrading for enhanced security and maximizing your software investment.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0d22eb11-ea83-4379-81ff-59f0b4e22159-Blockchain-Audit.svg.svg"
+    },
+    {
+        "title": "Software Integration",
+        "description": "We seamlessly integrate ERP, CRM, and e-commerce platforms into your existing framework. Starting with a thorough assessment of your software landscape and business objectives, we create a customized integration strategy to maximize your technology investments.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/06b6e130-dd28-47f2-aa4a-d289696ed598-Software-Integration.svg.svg"
+    },
+    {
+        "title": "Maintance & Support",
+        "description": "Our Our team of developers offers ongoing support and maintenance services to ensure your software remains optimized and secure. We enhance your software’s longevity and efficiency by proactively addressing issues, implementing security updates, and improving performance. Our maintenance services guarantee that your software continuously evolves to meet your business needs.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/9091c11b-5597-4ed7-bd0f-e6e8bd5fa783-Support-and-Maintenance.svg%20%281%29.svg"
+    }
+]

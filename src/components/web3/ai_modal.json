@@ -1,0 +1,453 @@
+[
+    {
+        "name": "Identity",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    { 
+        "name": "Client",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "File Storage",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Indexing & Querrying",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Layer 2s  & Side Chain",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Layer 1 Block Chain",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Development Environmet",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Indexing & Querrying",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Off Chain Data Protocol ",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    },
+    {
+        "name": "Oracle",
+        "cardData": [
+            {
+                "title": "SOLANA",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7051671a-b805-4f3b-b538-5c05ac6ab09f-image%2027.svg"
+            },
+            {
+                "title": "ETHEREUM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f234a3df-b717-47a4-818f-3e67aa53f7ee-image%2026.svg"
+            },
+            {
+                "title": "POLKADOT",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/07c347d4-7611-46b7-8e17-42ba812d3914-image%2030.svg"
+            },
+            {
+                "title": "COSMOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ecd775cc-eb80-46d3-8f78-8af648facee4-image%2028.svg"
+            },
+            {
+                "title": "NEAR",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/697b2bd7-eb15-4dd2-8c86-a972b99a2efa-image%2029.svg"
+            },
+            {
+                "title": "AVALANCHE",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/ac84e6c3-310e-45c6-ab1f-8f64e6e4d3ec-image%2031.svg"
+            },
+            {
+                "title": "TEZOS",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/3ded76be-5d01-447b-aaaf-8904c0b481b5-image%2032.svg"
+            },
+            {
+                "title": "CELO",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2f6d6db0-89ac-4ac9-8928-4247cf4dc62f-image%2033.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/7db09e0a-de74-4f84-a82e-df9f451acc84-image%2034.svg"
+            },
+            {
+                "title": "PHANTOM",
+                "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/0bba8b90-228a-442d-afa6-f6a2b060a4e5-image%2035.svg"
+            }
+        ]
+    }
+]
+
