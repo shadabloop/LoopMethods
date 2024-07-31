@@ -23,7 +23,7 @@ const SoftwarePage = () => {
                                 <Button>Check our services</Button>
                             </div>
                             <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/2719ca01-1885-4c06-9486-35761edcc045-aiimage.svg" width={556} height={600} />
+                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/585dda45-7e53-4b74-8e97-b9dcd8b000b1-Services_Enterprise-Application-Development_Custom-Software-Engineering.webp" width={556} height={600} />
                             </div>
                         </div>
                     </div>
