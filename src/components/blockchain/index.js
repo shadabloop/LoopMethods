@@ -24,7 +24,7 @@ const BlockChain = () => {
                                 <Button>Check our services</Button>
                             </div>
                             <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/f7d9a1cd-dbf5-49bc-989a-1009f25eb272-Firefly%203Create%20a%20high-quality%203D%20rendering%20of%20blockchain%20technology.%20The%20scene%20should%20feature%20inter%20%281%29%201.png" width={556} height={600} />
+                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/f7d9a1cd-dbf5-49bc-989a-1009f25eb272-Firefly%203Create%20a%20high-quality%203D%20rendering%20of%20blockchain%20technology.%20The%20scene%20should%20feature%20inter%20%281%29%201.png" width={420} height={460} />
                             </div>
                         </div>
                     </div>

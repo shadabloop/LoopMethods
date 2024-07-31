@@ -49,7 +49,7 @@ const Web3Page = () => {
                                 <Button>Check our services</Button>
                             </div>
                             <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/bf77f725-2fe0-4a8c-9721-e2eae961f42f-Firefly_-imagine_A_3D_illustration_of_Web_3.0__featuring_decentralized_applications__peer-to-peer_ne__2_-removebg-preview%201.png" width={556} height={600} />
+                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/bf77f725-2fe0-4a8c-9721-e2eae961f42f-Firefly_-imagine_A_3D_illustration_of_Web_3.0__featuring_decentralized_applications__peer-to-peer_ne__2_-removebg-preview%201.png" width={420} height={460}  />
                             </div>
                         </div>
                     </div>

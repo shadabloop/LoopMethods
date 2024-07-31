@@ -244,12 +244,12 @@ const HomePage = () => {
                             <div className={styled.card}>
                                 <h4 className={styled.countTitle}>Need  more ?</h4>
                                 <h2 className={styled.title}>See Some Case Studies </h2>
-                                {/* <Image
+                                <Image
                                     src="https://frequencyimage.s3.ap-south-1.amazonaws.com/f5c03501-6f9f-4138-99bd-eff9c07704a4-Group%2048095488.svg"
                                     alt='graph'
-                                    width={113}
-                                    height={113}
-                                /> */}
+                                    width={80}
+                                    height={80}
+                                />
                             </div>
                         </div>
                     </div>

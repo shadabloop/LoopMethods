@@ -1,0 +1,32 @@
+[
+    {
+        "title": "IoT Hardware Design",
+        "description": "We prototype smart IoT devices to assist customers in testing concepts before proceeding to full-scale development. We use IoT sensors and boards to create agadget prototype.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/fe64f5b6-c3df-49e8-bcdc-6e26729ade3d-Strategic-Consulting-1.svg.svg"
+    },
+    {
+        "title": "IoT Firmware Integration",
+        "description": "We develop and integrate embedded software and firmware (microcontrollers, processors, gateways,sensors) into a host of IoT and M2M devices.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/f6b71e7f-d0dd-4671-90d5-a5fbbbe2cf39-PoC-and-MVP-Development.svg.svg"
+    },
+    {
+        "title": "Mobile App for IoT Devices",
+        "description": "We design cross-platform and native mobile apps that facilitate on-the-go access to data captured by smart devices and behave as a remote control for IoT solutions.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/27239941-7c6c-4690-8b0e-ee83eb96626b-Strategic-Consulting-1.svg%20fill%20%282%29.svg"
+    },
+    {
+        "title": "IoT Dashboards",
+        "description": "We help clients configure IoT devices, analyze sensor data via BI tools, manage IoT systems remotely and onsite and display it via responsive dashboards.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/e1a16450-4d9c-4684-8060-f24cc2049121-Data-Annotation.svg.svg"
+    },
+    {
+        "title": "Edge Computing",
+        "description": "We execute edge computing on IoT devices instead of traditional cloud computing to ensure lower latency rates and quicker data offloading time.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/36cfc7e4-48e8-4c1f-9f51-11104063327b-AI-Integration-and-Deployment.svg.svg"
+    },
+    {
+        "title": "Custom Product Development",
+        "description": "We develop custom IoT software that interacts with smart IoT devices and ensures that software supports the hardware functionality seamlessly.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/36cfc7e4-48e8-4c1f-9f51-11104063327b-AI-Integration-and-Deployment.svg.svg"
+    }
+]

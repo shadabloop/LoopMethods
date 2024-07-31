@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Artificial Intelligence & Machine learning",
+        "description": "Whether you're a startup aiming for disruptive innovation or an enterprise optimizing operations, our tailored AI & ML services meet your specific needs. Let our expertise fuel your success in the digital space.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/459ec772-6723-4557-a7c2-cfc2d4d5f554-Group.svg",
+        "service": [
+            {
+                "title": "Al Development"
+            },
+            {
+                "title": "Al Consulting"
+            },
+            {
+                "title": "Hire Action Transformer  Developers"
+            },
+            {
+                "title": "MLOps Consulting  Sercives"
+            }
+        ]
+    },
+    {
+        "title": "Blockchain Development",
+        "description": "Our expert blockchain team uses deep platform knowledge, smart contracts, and advanced tools to deliver secure, tailored solutions. We create industry-specific dApps for finance, healthcare, gaming, and education, ensuring trustless, tamper-proof, and future-ready applications that redefine data privacy and security.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/9797331d-30ed-4b4a-8aab-04a7c4d073d9-Mask%20Group%205.svg",
+        "service": [
+            {
+                "title": "Blockchain Development"
+            },
+            {
+                "title": "Substrate Development"
+            },
+            {
+                "title": "Hire Action Transformer  Developers"
+            },
+            {
+                "title": "MLOps Consulting  Sercives "
+            }
+        ]
+    },
+    {
+        "title": "Custom Software Development",
+        "description": "Our expert blockchain team uses deep platform knowledge, smart contracts, and advanced tools to deliver secure, tailored solutions. We create industry-specific dApps for finance, healthcare, gaming, and education, ensuring trustless, tamper-proof, and future-ready applications that redefine data privacy and security.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/8441da4f-78d4-4e7a-bdc6-23a38c8aa45b-Custom-Blockchain-Development-1.svg%20%282%29.svg",
+        "service": [
+            {
+                "title": "UI/UX Design"
+            },
+            {
+                "title": "Software Development"
+            },
+            {
+                "title": "Software Consulting"
+            },
+            {
+                "title": "Web Application Development"
+            }
+        ]
+    },
+    {
+        "title": "Web 3 Development",
+        "description": "Our expert blockchain team uses deep platform knowledge, smart contracts, and advanced tools to deliver secure, tailored solutions. We create industry-specific dApps for finance, healthcare, gaming, and education, ensuring trustless, tamper-proof, and future-ready applications that redefine data privacy and security.",
+        "url": "https://frequencyimage.s3.ap-south-1.amazonaws.com/2d9ad2d3-d466-47da-85b4-637fe1099e6d-Customized-Web3-dApps.svg.svg",
+        "service": [
+            {
+                "title": "Web 3 Development"
+            },
+            {
+                "title": "Dapp Development"
+            },
+            { 
+                "title": "NFT Development"
+            },
+            {
+                "title": "Smart Contract Developmet"
+            }
+        ]
+    }
+]

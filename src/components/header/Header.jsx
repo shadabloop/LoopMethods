@@ -3,9 +3,10 @@ import styles from "@/components/header/Header.module.scss";
 import Logo from "@/assets/brand-logo/logo.svg"
 import Image from 'next/image';
 import Link from 'next/link';
+// import { useRouter } from 'next/router';
 
 const Header = () => {
-
+    // const router = useRouter()
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -24,6 +25,11 @@ const Header = () => {
         };
     }, []);
 
+    const handleContactUs=()=>{
+        // router.push('/contact-us', { scroll: false })
+        window.open('/contact-us', '_blank', 'noopener,noreferrer');
+    }
+
     return (
         <header className={`${styles.headerWrapper} ${scrolled ? styles.stickyActive : ""}`}>
             <div className="container">
@@ -34,12 +40,12 @@ const Header = () => {
                     <nav class={styles.menu}>
                         <Link href="/" className={styles.menuItem}>Home</Link>
                         <div className={styles.dropdown}>
-                            <Link href="#" className={styles.menuItem}>
+                            <Link href="/service" className={styles.menuItem}>
                                 Services
                                 {/* <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/d523e682-f4ab-44ae-a87f-8128e1f2b6e0-Vector%20%285%29.svg" width={10} height={5} /> */}
                             </Link>
                             <div className={styles.dropdown_List}>
-                                <Link href="/service" className={styles.dropdown_Item}>
+                                <Link href="/AI-Ml" className={styles.dropdown_Item}>
                                     <div className={styles.icon}>
                                         <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/459ec772-6723-4557-a7c2-cfc2d4d5f554-Group.svg" width={18} height={18} />
                                     </div>
@@ -74,9 +80,9 @@ const Header = () => {
                         </div>
                         <Link href="#" className={styles.menuItem}>Careers</Link>
                         <Link href="#" className={styles.menuItem}>About Us</Link>
-                        <Link href="#" className={styles.menuItem}>Portfolio</Link>
+                        <Link href="/portfolio" className={styles.menuItem}>Portfolio</Link>
                     </nav>
-                    <button className={styles.contactButton}>Contact us</button>
+                    <button className={styles.contactButton} onClick={handleContactUs}>Contact us</button>
                 </div>
             </div>
         </header >

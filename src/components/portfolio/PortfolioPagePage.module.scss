@@ -1,0 +1,170 @@
+.PortfolioPage_wrapper {
+    margin-top: 100px;
+
+    .bannerWrapper {
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .leftPanel {
+                flex: 1;
+
+                .title {
+                    color: var(--black);
+                    font-family: var(--font-open-sens);
+                    font-size: 50px;
+                    font-weight: 700;
+                    line-height: 70px;
+                    margin-bottom: 32px;
+                }
+
+                .discription {
+                    color: var(--secondary);
+                    font-family: var(--font-open-sens);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    margin-bottom: 32px;
+                }
+
+
+            }
+
+            .rightPanel {
+                overflow: hidden;
+                width: 100%;
+                flex: 1;
+                display: flex;
+                align-items: flex-end;
+                justify-content: end;
+            }
+        }
+    }
+}
+
+.PortfolioPage_development_wrapper {
+    padding: 144px 0;
+
+
+    .tabContainer {
+        .tabList {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            overflow-x: auto;
+            padding-bottom: 35px;
+            scroll-behavior: smooth;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            .tabItem {
+                border-radius: 32px;
+                color: var(--black);
+                text-align: center;
+                font-family: var(--font-open-sens);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 38.4px;
+                padding: 6px 50px;
+                border: 1px solid var(--stroke, rgba(118, 119, 118, 0.19));
+                background: #FFF;
+                cursor: pointer;
+                transition: all .3s linear;
+                white-space: nowrap;
+                min-width: 218px;
+
+                &.active {
+                    box-shadow: 0px 10px 40px -10px rgba(123, 193, 141, 0.61);
+                    color: var(--white);
+                    background: var(--primary);
+                    border: 1px solid transparent;
+                }
+            }
+        }
+    }
+
+
+    .industry_service_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 16px;
+        row-gap: 62px;
+
+        .card {
+            border-radius: 29px;
+            border: 1px solid var(--stroke, rgba(118, 119, 118, 0.19));
+            background: var(--white);
+            height: 512.122px;
+            padding: 68px 27px;
+            position: relative;
+            transition: all .3s ease;
+            cursor: pointer;
+            overflow: hidden;
+            &:hover {
+                background: var(--primary);
+
+                .subTitle,
+                .title,
+                .description {
+                    color: var(--white);
+                }
+                
+                .icon {
+                    transform: translateX(0);
+                    gap: 20px;
+                    img{
+                        filter: brightness(0) invert(1);
+                    }
+                }
+            }
+
+            .subTitle {
+                color: rgba(82, 83, 82, 0.63);
+                font-family: var(--font-open-sens);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25.6px;
+            }
+
+            .title {
+                color: var(--primary);
+                font-family: var(--font-open-sens);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px;
+                /* 160% */
+                margin-bottom: 16px;
+            }
+
+            .description {
+                color: var(--black);
+                font-family: var(--font-open-sens);
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 32px;
+            }
+
+            .icon {
+                position: absolute;
+                bottom: 38px;
+                left: 27px;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                transform: translateX(-85%);
+                font-size: 22px;
+                font-weight: 600;
+                color: white;
+                transition: transform .3s ease;
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 
 import Head from "next/head";
-import ServicePage from "@/components/services";
+import PortfolioPage from "@/components/portfolio";
 
 
 export default function Portfolio() {
@@ -12,7 +12,7 @@ export default function Portfolio() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <ServicePage />
+            <PortfolioPage />
         </>
     );
 }

@@ -1,20 +1,20 @@
 import React from 'react'
-import styled from "@/components/service/Service.module.scss"
+import styled from "@/components/AIML/Service.module.scss"
 import Button from '@/common/Button'
 import Image from 'next/image'
 // import videoBanner from "@/assets/images/banner.mp4"
-import LeverageAiData from "@/components/service/LeverageAi.json"
-import AiModal from "@/components/service/ai_modal.json"
-import UnlockStrategic from "@/components/service/UnlockStrategic.json"
+import LeverageAiData from "@/components/AIML/LeverageAi.json"
+import AiModal from "@/components/AIML/ai_modal.json"
+import UnlockStrategic from "@/components/AIML/UnlockStrategic.json"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
-const ServicePage = () => {
+const AIMLPage = () => {
     return (
         <>
-            <section className={styled.service_wrapper}>
+            <section className={styled.AIML_wrapper}>
                 <div className="container">
                     <div className={styled.bannerWrapper}>
                         <div className={styled.banner}>
@@ -27,7 +27,7 @@ const ServicePage = () => {
                                 <Button>Check our services</Button>
                             </div>
                             <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/2719ca01-1885-4c06-9486-35761edcc045-aiimage.svg" width={556} height={600} />
+                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/fb208af7-89f1-403a-b876-588ff5ef651e-Frame%2048095998.png" width={556} height={600} />
                             </div>
                         </div>
                         {/* <video autoplay muted loop id="myVideo">
@@ -65,7 +65,8 @@ const ServicePage = () => {
                         pagination={{
                             clickable: true,
                         }}
-                        modules={[Pagination]}
+                        navigation
+                        modules={[Pagination,Navigation]}
                         loop={true}
                         className={styled.mainSlideWrap}
                     >
@@ -170,4 +171,4 @@ const ServicePage = () => {
     )
 }
 
-export default ServicePage
+export default AIMLPage

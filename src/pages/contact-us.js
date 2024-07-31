@@ -1,9 +1,9 @@
 
 import Head from "next/head";
-import ServicePage from "@/components/services";
+import ContactUsPage from "@/components/contact-us";
 
 
-export default function Portfolio() {
+export default function ContactUS() {
     return (
         <>
             <Head>
@@ -12,7 +12,7 @@ export default function Portfolio() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <ServicePage />
+            <ContactUsPage />
         </>
     );
 }
