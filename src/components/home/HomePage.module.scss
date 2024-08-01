@@ -16,11 +16,12 @@
                 .leftPanel {
                     .title {
                         color: var(--black);
-                        font-family: var(--font-open-sens);
+                        font-family: var(--font-mulish);
                         font-size: 50px;
                         font-weight: 700;
                         line-height: 70px;
                         margin-bottom: 32px;
+                        animation: fadeInUp 1.3s ease-in-out;
                     }
 
                     .discription {
@@ -30,13 +31,17 @@
                         font-weight: 400;
                         line-height: 32px;
                         margin-bottom: 32px;
+                        animation: fadeInUp 1.3s ease-in-out;
                     }
 
+                    .service_btn {
+                        animation: fadeInUp 1.3s ease-in-out;
+                    }
 
                 }
 
                 .rightPanel {
-                    overflow: hidden;
+                    // overflow: hidden;
                     width: 467px;
                     height: 467px;
 
@@ -55,6 +60,17 @@
 
 }
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,50px,0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
 
 .businessGrowthWrapper {
     padding: 76px 0;
@@ -84,24 +100,26 @@
 
     .mainTital {
         color: var(--secondary);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
         text-align: center;
+        animation: fadeInUp .5s ease-in-out;
     }
 
     .title {
         color: var(--black);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
+        animation: fadeInUp .5s ease-in-out;
     }
 
     .paragraph {
@@ -114,18 +132,19 @@
         line-height: 25.6px;
         letter-spacing: 1px;
         margin-bottom: 84px;
+        animation: fadeInUp .5s ease-in-out;
     }
 
     .cardGroup {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         gap: 99px;
 
         .card {
             .cardTitle {
                 color: var(--secondary);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
@@ -136,7 +155,7 @@
 
             .count {
                 color: var(--black);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 64px;
                 font-style: normal;
                 font-weight: 700;
@@ -162,10 +181,9 @@
     padding: 76px 0;
     position: relative;
 
-
     .mainTital {
         color: var(--secondary);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -177,7 +195,7 @@
     .title {
         color: var(--black);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -209,19 +227,36 @@
             background: var(--white);
             box-shadow: -4px -4px 30px 0px #FFF, 4px 4px 30px 0px rgba(174, 174, 236, 0.40);
             border-radius: 6px;
+            transition: all .3s ease;
+            border: 1px solid transparent;
+            
+            &:hover {
+                transform: scale(1.05);
+                border: 1px solid #efefef;
+                backdrop-filter: blur(4px);
+                background: var(--white);
+                
+                .cardTitle {
+                    background: var(--2, linear-gradient(137deg, #612FFF 13.72%, #D200A3 100%));
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
 
             .cardTitle {
                 color: var(--secondary);
                 text-align: center;
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 700;
                 text-transform: uppercase;
                 line-height: normal;
                 letter-spacing: 0.1px;
-                margin-bottom: 26px;
+                margin-bottom: 28px;
                 height: 85px;
+                transition: all .3s ease;
             }
 
             .svgIcons {
@@ -249,7 +284,7 @@
                 width: 100%;
                 color: var(--white);
                 text-align: center;
-                font-family: var(--font-lato);
+                font-family: var(--font-mulish);
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 700;
@@ -283,7 +318,7 @@
     .title {
         color: var(--black);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -303,7 +338,7 @@
                 border-radius: 32px;
                 color: var(--black);
                 text-align: center;
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 700;
@@ -332,10 +367,10 @@
             font-family: var(--font-open-sens);
             font-size: 16px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 600;
             line-height: normal;
             text-transform: uppercase;
-            margin-bottom: 10px;
+            margin-bottom: 25px;
         }
 
         .tabContent {
@@ -347,8 +382,8 @@
 
                 .mainHeading {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
-                    font-size: 38px;
+                    font-family: var(--font-mulish);
+                    font-size: 32px;
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
@@ -397,7 +432,7 @@
 
                     .title {
                         color: var(--black);
-                        font-family: var(--font-open-sens);
+                        font-family: var(--font-mulish);
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 600;
@@ -488,7 +523,7 @@
             .heading {
                 color: var(--Text-Black, #071C02);
                 text-align: center;
-                font-family: "Open Sans";
+                font-family: var(--font-mulish);
                 font-size: 50px;
                 font-style: normal;
                 font-weight: 700;
@@ -503,7 +538,7 @@
                 border: 1px solid var(--text-fade, #525352);
                 color: var(--black);
                 text-align: center;
-                font-family: var(--font-lato);
+                font-family: var(--font-mulish);
                 font-size: 18px;
                 font-weight: 700;
                 line-height: 28.8px;
@@ -522,7 +557,7 @@
                 .count,
                 .countTitle {
                     color: var(--light);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 63px;
                     font-weight: 700;
                     line-height: normal;
@@ -535,7 +570,7 @@
 
                 .title {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 50px;
                     font-weight: 700;
                     line-height: normal;
@@ -563,7 +598,7 @@
 
     .title {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-weight: 700;
         line-height: 75px;
@@ -579,11 +614,11 @@
         .taskContent {
             .main_kind {
                 color: var(--black);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 32px;
                 font-weight: 700;
                 line-height: 38px;
-                margin-bottom: 43px;
+                margin-bottom: 28px;
             }
 
             .description {
@@ -593,7 +628,7 @@
                 font-weight: 400;
                 line-height: 25.6px;
                 letter-spacing: 0.56px;
-                margin-bottom: 43px;
+                margin-bottom: 50px;
             }
         }
 

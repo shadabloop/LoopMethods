@@ -12,11 +12,11 @@
 
                 .title {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 50px;
                     font-weight: 700;
                     line-height: 70px;
-                    margin-bottom: 32px;
+                    margin-bottom: 20px;
                 }
 
                 .discription {
@@ -24,10 +24,9 @@
                     font-family: var(--font-open-sens);
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 32px;
-                    margin-bottom: 32px;
+                    line-height: 26px;
+                    margin-bottom: 48px;
                 }
-
 
             }
 
@@ -60,7 +59,7 @@
     .smallTitle {
         color: var(--secondary);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -69,7 +68,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -98,8 +97,8 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
-                font-size: 28px;
+                font-family: var(--font-mulish);
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 38.4px;
@@ -111,7 +110,7 @@
                 font-family: var(--font-open-sens);
                 font-size: 16px;
                 font-weight: 400;
-                line-height: 30px;
+                line-height: 28px;
                 letter-spacing: 0.32px;
             }
         }
@@ -127,7 +126,7 @@
             }
 
             .title {
-                font-family: var(--font-play);
+                font-family: var(--font-mulish);
                 text-align: center;
             }
 
@@ -159,7 +158,7 @@
                     .rightPanel {
                         .small {
                             color: var(--purple);
-                            font-family: var(--font-play);
+                            font-family: var(--font-mulish);
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 700;
@@ -172,11 +171,11 @@
 
                         .title {
                             color: var(--black);
-                            font-family: var(--font-open-sens);
+                            font-family: var(--font-mulish);
                             font-size: 48px;
                             font-weight: 700;
                             line-height: normal;
-                            margin-bottom: 8px;
+                            margin-bottom: 18px;
                         }
 
                         .itemList {
@@ -185,7 +184,7 @@
                                 font-family: var(--font-open-sens);
                                 font-size: 16px;
                                 font-weight: 400;
-                                line-height: 30px;
+                                line-height: 26px;
                                 letter-spacing: 0.32px;
                                 margin-bottom: 34px;
                                 display: flex;
@@ -223,7 +222,7 @@
                                     position: relative;
 
                                     color: var(--black);
-                                    font-family: var(--font-open-sens);
+                                    font-family: var(--font-mulish);
                                     font-size: 16px;
                                     font-style: normal;
                                     font-weight: 400;
@@ -251,7 +250,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -281,7 +280,7 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 14px;
                 font-weight: 700;
                 line-height: normal;
@@ -290,76 +289,6 @@
     }
 }
 
-.Unlock_Strategic_Growth {
-    padding: 59px 0;
-
-    .heading {
-        color: var(--black);
-        font-family: var(--font-open-sens);
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 70px;
-        text-align: center;
-    }
-
-    .service_wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-
-        .card {
-            position: relative;
-            padding: 40px 40px;
-            border-radius: 6px;
-            overflow: hidden;
-            text-align: center;
-
-            &::before {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                background: linear-gradient(145deg, rgba(255, 255, 255, 0.5) 30%, rgba(74, 207, 255, .2) 70%);
-                height: 100%;
-                width: 100%;
-                z-index: -1;
-            }
-
-            .icon {
-                background-color: var(--purple);
-                filter: drop-shadow(4px 4px 30px rgba(174, 174, 236, 0.40)) drop-shadow(-4px -4px 30px #FFF);
-                padding: 5px;
-                width: 97px;
-                height: 97px;
-                margin: 16px auto;
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .title {
-                color: var(--black);
-                font-family: var(--font-open-sens);
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 38.4px;
-                margin-bottom: 16px;
-            }
-
-            .description {
-                color: var(--secondary);
-                font-family: var(--font-open-sens);
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 30px;
-                letter-spacing: 0.32px;
-            }
-        }
-    }
-}
 
 
 .form_wrapper {
@@ -368,7 +297,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -382,8 +311,8 @@
         text-align: center;
         font-family: var(--font-open-sens);
         font-size: 16px;
-        font-weight: 600;
-        line-height: 25.6px;
+        font-weight: 500;
+        line-height: 26px;
         margin-bottom: 70px;
     }
 
@@ -406,7 +335,7 @@
                     background: var(--white);
                     width: 100%;
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600;

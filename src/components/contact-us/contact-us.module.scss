@@ -13,11 +13,15 @@
 
                 .title {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 50px;
                     font-weight: 700;
                     line-height: 70px;
-                    margin-bottom: 32px;
+                    margin-bottom: 12px;
+
+                    span {
+                        color: var(--primary);
+                    }
                 }
 
                 .discription {
@@ -25,8 +29,8 @@
                     font-family: var(--font-open-sens);
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 32px;
-                    margin-bottom: 32px;
+                    line-height: 26px;
+                    margin-bottom: 48px;
                 }
 
 
@@ -50,7 +54,7 @@
     .smallTitle {
         color: var(--secondary);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -59,7 +63,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -98,7 +102,7 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 28px;
                 font-style: normal;
                 font-weight: 600;
@@ -130,7 +134,7 @@
     .small {
         color: var(--secondary);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -140,7 +144,7 @@
 
     .title {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 42px;
         font-weight: 700;
         line-height: normal;
@@ -149,7 +153,7 @@
 
     .owner_name {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 28px;
         font-weight: 700;
         line-height: 38.4px;
@@ -167,7 +171,7 @@
 
     .designation {
         color: var(--primary);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -175,9 +179,9 @@
     }
 
     .description {
-        color: var(--text-fade, #525352);
+        color: var(--secondary);
         text-align: center;
-        font-family: "Open Sans";
+        font-family: var(--font-open-sens);
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -201,7 +205,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -215,13 +219,12 @@
         text-align: center;
         font-family: var(--font-open-sens);
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 25.6px;
         margin-bottom: 70px;
     }
 
     .form {
-
         .row,
         .column {
             display: grid;
@@ -239,7 +242,7 @@
                     background: var(--white);
                     width: 100%;
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600;

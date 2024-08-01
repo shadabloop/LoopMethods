@@ -119,7 +119,7 @@ const BlockChain = () => {
                         {
                             AiModal.map((item) => (
                                 <li className={styled.brand}>
-                                    <Image src={item.url} width={68} height={68} />
+                                    <Image src={item.url} width={60} height={60} />
                                     <h5 className={styled.title}>{item.title}</h5>
                                 </li>
                             ))

@@ -12,11 +12,11 @@
 
                 .title {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 50px;
                     font-weight: 700;
                     line-height: 70px;
-                    margin-bottom: 32px;
+                    margin-bottom: 20px;
                 }
 
                 .discription {
@@ -24,8 +24,8 @@
                     font-family: var(--font-open-sens);
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 32px;
-                    margin-bottom: 32px;
+                    line-height: 26px;
+                    margin-bottom: 48px;
                 }
 
 
@@ -54,26 +54,28 @@
 }
 
 .InternetOfThings_development_wrapper {
-    padding: 59px 0;
+    padding: 90px 0;
 
     .smallTitle {
         color: var(--secondary);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
+        margin-bottom: 10px;
     }
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
         line-height: 70px;
         text-align: center;
+        margin-bottom: 76px;
     }
 
     .service_wrapper {
@@ -97,8 +99,8 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
-                font-size: 28px;
+                font-family: var(--font-mulish);
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 38.4px;
@@ -110,7 +112,7 @@
                 font-family: var(--font-open-sens);
                 font-size: 16px;
                 font-weight: 400;
-                line-height: 30px;
+                line-height: 28px;
                 letter-spacing: 0.32px;
             }
         }
@@ -123,7 +125,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -137,8 +139,8 @@
         text-align: center;
         font-family: var(--font-open-sens);
         font-size: 16px;
-        font-weight: 600;
-        line-height: 25.6px;
+        font-weight: 500;
+        line-height: 26px;
         margin-bottom: 70px;
     }
 
@@ -161,7 +163,7 @@
                     background: var(--white);
                     width: 100%;
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600;

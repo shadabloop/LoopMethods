@@ -12,11 +12,11 @@
 
                 .title {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 50px;
                     font-weight: 700;
                     line-height: 70px;
-                    margin-bottom: 32px;
+                    margin-bottom: 20px;
                 }
 
                 .discription {
@@ -24,8 +24,8 @@
                     font-family: var(--font-open-sens);
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 32px;
-                    margin-bottom: 32px;
+                    line-height: 26px;
+                    margin-bottom: 48px;
                 }
 
 
@@ -59,7 +59,7 @@
     .smallTitle {
         color: var(--secondary);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -68,7 +68,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -97,8 +97,8 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
-                font-size: 28px;
+                font-family: var(--font-mulish);
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 38.4px;
@@ -110,7 +110,7 @@
                 font-family: var(--font-open-sens);
                 font-size: 16px;
                 font-weight: 400;
-                line-height: 30px;
+                line-height: 28px;
                 letter-spacing: 0.32px;
             }
         }
@@ -138,7 +138,7 @@
                     .rightPanel {
                         .small {
                             color: var(--purple);
-                            font-family: var(--font-play);
+                            font-family: var(--font-mulish);
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 700;
@@ -151,11 +151,11 @@
 
                         .title {
                             color: var(--black);
-                            font-family: var(--font-open-sens);
+                            font-family: var(--font-mulish);
                             font-size: 48px;
                             font-weight: 700;
                             line-height: normal;
-                            margin-bottom: 8px;
+                            margin-bottom: 26px;
                         }
 
                         .discription {
@@ -163,7 +163,7 @@
                             font-family: var(--font-open-sens);
                             font-size: 16px;
                             font-weight: 400;
-                            line-height: 30px;
+                            line-height: 28px;
                             letter-spacing: 0.32px;
                             margin-bottom: 20px;
                         }
@@ -178,56 +178,12 @@
     }
 }
 
-.AI_Models_Wrapper {
-    padding: 82px 0;
-
-    .heading {
-        color: var(--black);
-        font-family: var(--font-open-sens);
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 70px;
-        text-align: center;
-        margin-bottom: 80px;
-    }
-
-    .ai_service_wrapper {
-        display: flex;
-        align-items: center;
-        gap: 31px;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        .brand {
-            border-radius: 143px;
-            background: var(--bg-light);
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding: 21.5px 18px 20.5px 18px;
-            width: 170px;
-            height: 170px;
-            display: flex;
-            gap: 12px;
-
-            .title {
-                color: var(--black);
-                font-family: var(--font-open-sens);
-                font-size: 14px;
-                font-weight: 700;
-                line-height: normal;
-            }
-        }
-    }
-}
-
 .Unlock_Strategic_Growth {
     padding: 59px 0;
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -242,10 +198,20 @@
         margin-bottom: 102px;
         .card {
             position: relative;
-            padding: 40px 40px;
+            padding: 40px 36px;
             border-radius: 6px;
             overflow: hidden;
             text-align: center;
+            transition: all .3s ease;
+            border: 1px solid rgba(74, 207, 255, .2);
+            &:hover{
+                border: 1px solid var(--purple);
+                transform: scale(1.05);
+
+                .title {
+                    color: purple;
+                }
+            }
 
             &::before {
                 content: "";
@@ -273,12 +239,13 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 38.4px;
                 margin-bottom: 16px;
+                transition: all .3s ease;
             }
 
             .description {
@@ -295,11 +262,11 @@
     .serviceContent {
         .title {
             color: var(--black);
-            font-family: var(--font-open-sens);
+            font-family: var(--font-mulish);
             font-size: 50px;
             font-weight: 700;
             line-height: 70px;
-            margin-bottom: 16px;
+            margin-bottom: 10px;
             text-align: center;
         }
         
@@ -310,9 +277,9 @@
             font-family: var(--font-open-sens);
             font-size: 16px;
             font-weight: 400;
-            line-height: 30px;
+            line-height: 28px;
             letter-spacing: 0.32px;
-            margin-bottom: 59px;
+            margin-bottom: 50px;
         }
 
         .contact_us_btn{
@@ -329,7 +296,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -343,8 +310,8 @@
         text-align: center;
         font-family: var(--font-open-sens);
         font-size: 16px;
-        font-weight: 600;
-        line-height: 25.6px;
+        font-weight: 500;
+        line-height: 26px;
         margin-bottom: 70px;
     }
 
@@ -367,7 +334,7 @@
                     background: var(--white);
                     width: 100%;
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 600;

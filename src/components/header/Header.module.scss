@@ -22,14 +22,14 @@
 
             .contactButton {
                 padding: 10px 18px;
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 600;
-                
+
             }
 
             .menu {
                 .menuItem {
-                    font-size: 14px;
+                    font-size: 16px;
                 }
             }
         }
@@ -51,14 +51,14 @@
             padding: 10px 24px;
             justify-content: center;
             align-items: center;
-            font-family: var(--font-lato);
+            font-family: var(--font-mulish);
             border-radius: 8px;
             background: var(--primary);
             box-shadow: 0px 10px 40px -10px rgba(123, 193, 141, 0.61);
             border: none;
             color: #FFF;
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 700;
             text-transform: uppercase;
             transition: all .2s ease;
@@ -74,14 +74,15 @@
 
             .menuItem {
                 color: var(--secondary);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 120%;
                 text-transform: uppercase;
                 transition: all .2s ease;
 
-                &:hover {
+                &:hover,
+                &.active {
                     color: var(--primary);
                 }
             }
@@ -98,7 +99,7 @@
 
                 .menuItem {
                     color: var(--secondary);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 16px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -120,7 +121,8 @@
                         transform: translateY(-50%);
                     }
 
-                    &:hover {
+                    &:hover,
+                    &.active {
                         color: var(--primary);
 
                         &::after {
@@ -129,7 +131,7 @@
 
                         .dropdown_List {
                             visibility: visible;
-                            background-color: red;
+                            // background-color: red;
                         }
                     }
                 }
@@ -154,7 +156,7 @@
 
                     .dropdown_Item {
                         color: var(--secondary);
-                        font-family: var(--font-open-sens);
+                        font-family: var(--font-mulish);
                         font-size: 16px;
                         font-style: normal;
                         font-weight: 700;
@@ -165,12 +167,15 @@
                         white-space: nowrap;
                         gap: 12px;
                         transition: color .2s linear;
-                        .icon{
+
+                        .icon {
                             display: flex;
                             align-items: center;
                             justify-content: center;
                         }
-                        &:hover {
+
+                        &:hover,
+                        &.active {
                             color: var(--primary);
                         }
                     }

@@ -12,11 +12,11 @@
 
                 .title {
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 50px;
                     font-weight: 700;
                     line-height: 70px;
-                    margin-bottom: 32px;
+                    margin-bottom: 20px;
                 }
 
                 .discription {
@@ -24,8 +24,8 @@
                     font-family: var(--font-open-sens);
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 32px;
-                    margin-bottom: 32px;
+                    line-height: 26px;
+                    margin-bottom: 48px;
                 }
 
 
@@ -49,7 +49,7 @@
     .smallTitle {
         color: var(--secondary);
         text-align: center;
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
@@ -59,7 +59,7 @@
 
     .heading {
         color: var(--black);
-        font-family: var(--font-open-sens);
+        font-family: var(--font-mulish);
         font-size: 50px;
         font-style: normal;
         font-weight: 700;
@@ -160,7 +160,7 @@
                     align-items: center;
                     gap: 14px;
                     color: var(--black);
-                    font-family: var(--font-open-sens);
+                    font-family: var(--font-mulish);
                     font-size: 20px;
                     font-weight: 600;
                     line-height: 38.4px;
@@ -180,7 +180,7 @@
 
             .title {
                 color: var(--black);
-                font-family: var(--font-open-sens);
+                font-family: var(--font-mulish);
                 font-size: 40px;
                 font-style: normal;
                 font-weight: 700;
@@ -218,7 +218,7 @@
         height: 100%;
         width: 100%;
         content: "";
-        background: rgba(0, 0, 0, 0.1) no-repeat center / cover;
+        background: rgba(0, 0, 0, 0.3) no-repeat center / cover;
         z-index: 0;
         transition: transform 10s linear;
     }
@@ -227,10 +227,12 @@
         align-items: center;
         flex-direction: column;
         padding: 200px 200px;
+        position: relative;
+        
         .title{
             color: var(--white);
             text-align: center;
-            font-family: var(--font-open-sens);
+            font-family: var(--font-mulish);
             font-size: 50px;
             font-weight: 600;
             line-height: normal;
@@ -242,8 +244,8 @@
             text-align: center;
             font-family: var(--font-open-sens);
             font-size: 16px;
-            font-weight: 500;
-            line-height: 25.6px; 
+            font-weight: 400;
+            line-height: 26px; 
             margin-bottom: 24px;
         }
     }

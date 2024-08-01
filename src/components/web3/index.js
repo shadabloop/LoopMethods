@@ -102,7 +102,7 @@ const Web3Page = () => {
                             {
                                 AiModal.filter((val => val.name === isActiveTab))[0]?.cardData?.map((item, key) => (
                                     <li className={styled.brand}>
-                                        <Image src={item.url} width={68} height={68} />
+                                        <Image src={item.url} width={60} height={60} />
                                         <h5 className={styled.title}>{item.title}</h5>
                                     </li>
                                 ))

@@ -9,6 +9,7 @@ import UnlockStrategic from "@/components/AIML/UnlockStrategic.json"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import { Navigation, Pagination } from 'swiper/modules';
 
 const AIMLPage = () => {
@@ -66,7 +67,7 @@ const AIMLPage = () => {
                             clickable: true,
                         }}
                         navigation
-                        modules={[Pagination,Navigation]}
+                        modules={[Pagination, Navigation]}
                         loop={true}
                         className={styled.mainSlideWrap}
                     >
@@ -105,7 +106,7 @@ const AIMLPage = () => {
                         {
                             AiModal.map((item) => (
                                 <li className={styled.brand}>
-                                    <Image src={item.url} width={74} height={74} />
+                                    <Image src={item.url} width={54} height={54} />
                                     <h5 className={styled.title}>{item.title}</h5>
                                 </li>
                             ))
@@ -116,7 +117,7 @@ const AIMLPage = () => {
 
             <section className={styled.Unlock_Strategic_Growth}>
                 <div className="container">
-                    <h2 className={styled.heading}>Unlock Strategic Growth for Your Business With Our AI, Know-how ?</h2>
+                    <h2 className={styled.heading}>Unlock Strategic Growth with Our AI Expertise</h2>
 
                     <div className={styled.service_wrapper}>
                         {

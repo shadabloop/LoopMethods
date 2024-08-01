@@ -26,7 +26,7 @@ const ServicePage = () => {
             <section className={styled.PortfolioPage_development_wrapper}>
                 <div className="container">
                     <p className={styled.smallTitle}>Our Service Model !</p>
-                    <h2 className={styled.heading}>Tech solutions: AI, IoT, Cloud, Blockchain expertise for your advantage.</h2>
+                    <h2 className={styled.heading}>Maximize advantage with AI, IoT, Cloud, Blockchain.</h2>
                     <div className={styled.industry_service_wrapper}>
                         {
                             services.map((item, key) => (
