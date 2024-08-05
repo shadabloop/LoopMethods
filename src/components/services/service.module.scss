@@ -17,6 +17,11 @@
                     font-weight: 700;
                     line-height: 70px;
                     margin-bottom: 20px;
+                    animation: fadeInUp 0.8s ease-in-out;
+
+                    span{
+                        color: var(--primary);
+                    }
                 }
 
                 .discription {
@@ -26,6 +31,7 @@
                     font-weight: 400;
                     line-height: 26px;
                     margin-bottom: 48px;
+                    animation: fadeInUp 0.8s ease-in-out;
                 }
 
 
@@ -33,16 +39,35 @@
 
             .rightPanel {
                 overflow: hidden;
-                width: 100%;
                 flex: 1;
                 display: flex;
                 align-items: flex-end;
                 justify-content: end;
+                width: 510px;
+                height: 510px;
+
+                img {
+                    height: 100%;
+                    max-width: 100%;
+                    object-fit: contain;
+                    display: block;
+                    margin: auto;
+                }
             }
         }
     }
 }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,50px,0);
+    }
 
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
 .PortfolioPage_development_wrapper {
     padding: 144px 0;
 
@@ -55,6 +80,7 @@
         line-height: normal;
         text-transform: uppercase;
         margin-bottom: 16px;
+        animation: fadeInUp 0.8s ease-in-out;
     }
 
     .heading {
@@ -66,6 +92,7 @@
         line-height: 70px;
         text-align: center;
         margin-bottom: 107px;
+        animation: fadeInUp 0.8s ease-in-out;
     }
 
 

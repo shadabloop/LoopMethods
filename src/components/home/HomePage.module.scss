@@ -42,15 +42,19 @@
 
                 .rightPanel {
                     // overflow: hidden;
-                    width: 467px;
-                    height: 467px;
-
+                    width: 510px;
+                    height: 510px;
+                    animation: fadeInUp 1.3s ease-in-out;
                     img {
                         height: 100%;
                         width: 100%;
                         object-fit: contain;
                         display: block;
                         margin: auto;
+
+                        &.flip {
+                            transform: scaleX(-1);
+                        }
                     }
 
                 }
@@ -63,12 +67,12 @@
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translate3d(0,50px,0);
+        transform: translate3d(0, 50px, 0);
     }
 
     to {
         opacity: 1;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
@@ -229,13 +233,13 @@
             border-radius: 6px;
             transition: all .3s ease;
             border: 1px solid transparent;
-            
+
             &:hover {
                 transform: scale(1.05);
                 border: 1px solid #efefef;
                 backdrop-filter: blur(4px);
                 background: var(--white);
-                
+
                 .cardTitle {
                     background: var(--2, linear-gradient(137deg, #612FFF 13.72%, #D200A3 100%));
                     background-clip: text;
@@ -500,7 +504,18 @@
 
 
 .whyChoseUs_Wrapper {
-    padding: 50px 0;
+    // padding: 50px 0;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        left: 0;
+        top: 0;
+        background: var(--purple);
+    }
 
     .whyChoseUs {
         display: grid;
@@ -512,16 +527,19 @@
             position: sticky;
             top: 0;
             left: 0;
-            margin: 100px 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             .logo {
                 margin: 24px auto;
                 display: block;
-                margin-top: 250px;
+                // margin-top: 250px;
             }
 
             .heading {
-                color: var(--Text-Black, #071C02);
+                color: var(--Text-Black, #ffffff);
                 text-align: center;
                 font-family: var(--font-mulish);
                 font-size: 50px;
@@ -535,8 +553,8 @@
             .contact_btn {
                 padding: 10px 24px;
                 border-radius: 8px;
-                border: 1px solid var(--text-fade, #525352);
-                color: var(--black);
+                border: 1px solid var(--text-fade, #ffffff);
+                color: var(--white);
                 text-align: center;
                 font-family: var(--font-mulish);
                 font-size: 18px;
@@ -551,27 +569,29 @@
         }
 
         .rightPanel {
+            padding: 50px 0;
             .card {
-                margin-bottom: 158px;
-
+                &:not(:last-child){
+                    margin-bottom: 64px;
+                }
                 .count,
                 .countTitle {
                     color: var(--light);
                     font-family: var(--font-mulish);
-                    font-size: 63px;
+                    font-size: 36px;
                     font-weight: 700;
                     line-height: normal;
                     letter-spacing: -0.63px;
                 }
 
                 .countTitle {
-                    font-size: 36px;
+                    font-size: 38px;
                 }
 
                 .title {
                     color: var(--black);
                     font-family: var(--font-mulish);
-                    font-size: 50px;
+                    font-size: 36px;
                     font-weight: 700;
                     line-height: normal;
                     letter-spacing: -0.5px;
@@ -579,12 +599,12 @@
                 }
 
                 .description {
-                    color: var(--text-fade, #525352);
-                    font-family: "Open Sans";
-                    font-size: 16px;
+                    color: var(--secondary);
+                    font-family: var(--font-open-sens);
+                    font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 25.6px;
+                    line-height: 26px;
                     letter-spacing: 0.64px;
                 }
             }
@@ -594,6 +614,7 @@
 }
 
 .FeaturedCases_Wrapper {
+    padding-top: 84px;
     padding-bottom: 154px;
 
     .title {

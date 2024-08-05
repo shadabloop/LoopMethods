@@ -6,12 +6,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import "./HomePage.module.scss"
-
+import Logo from "@/assets/brand-logo/logo.svg"
 import { Pagination, Autoplay } from 'swiper/modules';
 import BannerData from "@/components/home/banner.json"
 import tabListdata from "@/components/home/tabList.json"
 import featureSliderData from "@/components/home/featureSlider.json"
 import CountUp from 'react-countup';
+import ColoredLastWord from '@/common/ColoredLastWord';
 
 const HomePage = () => {
 
@@ -51,7 +52,7 @@ const HomePage = () => {
             setCurrentContent(featureSliderData[index]);
         }
     };
-
+    const wordsToColor = ["Web 3", "Artificial", "IoT", "Software", 'Blockchain', "Machine"];
     return (
         <>
             <section className={styled.swipperWrapper}>
@@ -76,12 +77,23 @@ const HomePage = () => {
                                         {/* <div className="container"> */}
                                         <div className={styled.banner}>
                                             <div className={styled.leftPanel}>
-                                                <h1 className={styled.title}>{item.name}</h1>
+                                                <ColoredLastWord text={item.name} wordsToColor={wordsToColor} />
+                                                {/* <h1 className={styled.title}>{item.name}</h1> */}
                                                 <p className={styled.discription}>{item.description}</p>
                                                 <Button className={styled.service_btn}>Check our services</Button>
                                             </div>
-                                            <div className={styled.rightPanel}>
+                                            {/* <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700" >
                                                 <Image src={item.url} width={417} height={456} />
+                                            </div> */}
+                                            <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
+                                                <Image
+                                                    src={item.url}
+                                                    width={0}
+                                                    height={0}
+                                                    sizes="100vw"
+                                                    style={{ width: '100%' }}
+                                                    className={item.name === "Artificial Intelligence and Machine learning" ? styled.flip : ""}
+                                                />
                                             </div>
                                         </div>
                                         {/* </div> */}
@@ -94,30 +106,30 @@ const HomePage = () => {
             </section>
             <section className={styled.businessGrowthWrapper} >
                 <div className="container">
-                    <h5 className={styled.mainTital} >Navigate the Digital Frontier</h5>
+                    <h5 className={styled.mainTital}>Navigate the Digital Frontier</h5>
                     <h2 className={styled.title} >Your Partner in Tech-Driven Business Growth.</h2>
-                    <p className={styled.paragraph} >With enough data, the numbers speak for themselves.</p>
+                    <p className={styled.paragraph}>With enough data, the numbers speak for themselves.</p>
 
                     <div className={styled.cardGroup} ref={elementRef}>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="900" >
                             <h2 className={styled.cardTitle}>Global Presence</h2>
                             {isVisible && <h3 className={styled.count}><CountUp end="16" duration={2} />+</h3>}
 
                             <p className={styled.description}>Collaborating with businesses worldwide through innovative technological solution.</p>
                         </div>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="900">
                             <h2 className={styled.cardTitle}>COSTUMER SATISFECTION</h2>
                             {/* <h3 className={styled.count}>100+</h3> */}
                             {isVisible && <h3 className={styled.count}><CountUp end="100" duration={2} />+</h3>}
                             <p className={styled.description}>Transforming challenges into opportunities, ensuring success through relentless pursuit of excellence.</p>
                         </div>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="900">
                             <h2 className={styled.cardTitle}>PROJRCT DELIVERED</h2>
                             {/* <h3 className={styled.count}>60+</h3> */}
                             {isVisible && <h3 className={styled.count}><CountUp end="60" duration={2} />+</h3>}
                             <p className={styled.description}>Crafting excellent solutions to transform businesses across industries.</p>
                         </div>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="900">
                             <h2 className={styled.cardTitle}>CONSULTANTS</h2>
                             {/* <h3 className={styled.count}>14+</h3> */}
                             {isVisible && <h3 className={styled.count}><CountUp end="14" duration={2} />+</h3>}
@@ -241,11 +253,11 @@ const HomePage = () => {
                     <div className={styled.whyChoseUs}>
                         <div className={styled.leftPanel}>
                             <Image
-                                src="https://frequencyimage.s3.ap-south-1.amazonaws.com/f30c2195-c712-4cf1-9d00-94ff64524284-logo1.svg"
+                                src={Logo}
                                 className={styled.logo}
                                 alt='graph'
-                                width={131}
-                                height={38}
+                                width={200}
+                                height={60}
                             />
                             <h5 className={styled.heading}>WHY CHOOSE US ?</h5>
                             <button className={styled.contact_btn}>Contact US</button>

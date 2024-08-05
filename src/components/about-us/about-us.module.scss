@@ -18,7 +18,7 @@
                     font-weight: 700;
                     line-height: 70px;
                     margin-bottom: 12px;
-
+                    animation: fadeInUp 0.8s ease-in-out;
                     span {
                         color: var(--primary);
                     }
@@ -31,9 +31,12 @@
                     font-weight: 400;
                     line-height: 26px;
                     margin-bottom: 48px;
+                    animation: fadeInUp 0.8s ease-in-out;
                 }
-
-
+                
+                .service_btn{
+                    animation: fadeInUp 0.8s ease-in-out;
+                }
             }
 
             .rightPanel {
@@ -45,6 +48,18 @@
                 justify-content: end;
             }
         }
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,50px,0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
     }
 }
 

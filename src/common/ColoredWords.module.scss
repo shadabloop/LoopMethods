@@ -1,0 +1,28 @@
+
+
+.title {
+    color: var(--black);
+    font-family: var(--font-mulish);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.3s ease-in-out;
+    // width: 95%;
+    .coloredWord {
+        color: var(--primary);
+    }
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,50px,0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}

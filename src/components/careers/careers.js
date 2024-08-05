@@ -3,7 +3,6 @@ import Career from "@/components/careers/careers.json";
 import styled from "@/components/careers/careers.module.scss"
 import Image from 'next/image';
 import Button from '@/common/Button';
-import Link from 'next/link';
 
 const CareersPage = () => {
     return (
@@ -13,7 +12,7 @@ const CareersPage = () => {
                     <div className={styled.bannerWrapper}>
                         <div className={styled.banner}>
                             <div className={styled.leftPanel}>
-                                <h1 className={styled.title}>Apply today!</h1>
+                                <h1 className={styled.title}>Apply <span>today!</span></h1>
                                 <p className={styled.discription}>At Loopmethods, we're looking for passionate, innovative thinkers to help shape the future of technology. Explore exciting career opportunities, work on cutting-edge projects, and grow with a dynamic team committed to excellence. Your journey to making an impact starts here. </p>
                             </div>
                             <div className={styled.rightPanel}>
@@ -73,7 +72,7 @@ const CareersPage = () => {
                     </div>
 
                     <div className={styled.card_list}>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="700">
                             <div className={styled.card_head}>
                                 <h3 className={styled.designation}>Front-End Developer</h3>
                                 <div className={styled.location_wrap}>
@@ -92,7 +91,7 @@ const CareersPage = () => {
                                 <Button>Learn more</Button>
                             </div>
                         </div>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="700">
                             <div className={styled.card_head}>
                                 <h3 className={styled.designation}>Full Stack Developer</h3>
                                 <div className={styled.location_wrap}>
@@ -111,7 +110,7 @@ const CareersPage = () => {
                                 <Button>Learn more</Button>
                             </div>
                         </div>
-                        <div className={styled.card}>
+                        <div className={styled.card} data-aos="fade-up" data-aos-duration="700">
                             <div className={styled.card_head}>
                                 <h3 className={styled.designation}>MERN Stack Developer</h3>
                                 <div className={styled.location_wrap}>

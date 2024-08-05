@@ -19,13 +19,21 @@ const BlockChain = () => {
                     <div className={styled.bannerWrapper}>
                         <div className={styled.banner}>
                             <div className={styled.leftPanel}>
-                                <h1 data-swiper-parallax="50%" className={styled.title}>Blockchain Consulting </h1>
-                                <p data-swiper-parallax="50%" className={styled.discription}>Leverage Loop Methods’ expertise to solve your toughest tech challenges and excel in blockchain. We identify improvement areas, plan implementation, craft tailored solutions, and provide ongoing support. Our integrated approach ensures your organization's growth and lasting results.</p>
-                                <Button>Check our services</Button>
+                                <h1 className={styled.title}><span>Blockchain</span> Consulting </h1>
+                                <p className={styled.discription}>Leverage Loop Methods’ expertise to solve your toughest tech challenges and excel in blockchain. We identify improvement areas, plan implementation, craft tailored solutions, and provide ongoing support. Our integrated approach ensures your organization's growth and lasting results.</p>
+                                <Button className={styled.service_btn}>Check our services</Button>
                             </div>
-                            <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/f7d9a1cd-dbf5-49bc-989a-1009f25eb272-Firefly%203Create%20a%20high-quality%203D%20rendering%20of%20blockchain%20technology.%20The%20scene%20should%20feature%20inter%20%281%29%201.png" width={420} height={460} />
+                            <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
+                                <Image 
+                                    src="https://frequencyimage.s3.ap-south-1.amazonaws.com/9d3f5810-fe42-4d99-b97b-f32107bd3ce0-digital-marketer-product-manager-virtual-illustrated-flat-minimal-design.jpg"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                />
                             </div>
+                            {/* <div className={styled.rightPanel}>
+                                <Image data-aos="fade-up" data-aos-duration="700" src="https://frequencyimage.s3.ap-south-1.amazonaws.com/f7d9a1cd-dbf5-49bc-989a-1009f25eb272-Firefly%203Create%20a%20high-quality%203D%20rendering%20of%20blockchain%20technology.%20The%20scene%20should%20feature%20inter%20%281%29%201.png" width={420} height={460} />
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -38,7 +46,7 @@ const BlockChain = () => {
                     <div className={styled.service_wrapper}>
                         {
                             LeverageAiData.map((item) => (
-                                <div className={styled.card}>
+                                <div className={styled.card} data-aos="fade-up" data-aos-duration="700">
                                     <div className={styled.icon}>
                                         <Image src={item.url} width={60} height={60} />
                                     </div>
@@ -52,12 +60,12 @@ const BlockChain = () => {
             </section>
             <section className={`${styled.BlockchainSolutions}`}>
                 <div className="container">
-                    <h2 className={styled.heading}>Blockchain Solutions We Build</h2>
+                    <h2 className={styled.heading} data-aos="fade-up" data-aos-duration="700">Blockchain Solutions We Build</h2>
 
                     <div className={styled.service_wrapper}>
                         {
                             BlockchainServiceSolution.map((item) => (
-                                <div className={styled.card}>
+                                <div className={styled.card} data-aos="fade-up" data-aos-duration="800">
                                     <div className={styled.icon}>
                                         <Image src={item.url} width={60} height={60} />
                                     </div>
@@ -87,15 +95,15 @@ const BlockChain = () => {
                                 <SwiperSlide className={styled.bannerCard} key={key}>
                                     <div className={styled.bannerWrapper}>
                                         <div className={styled.banner}>
-                                            <div className={styled.leftPanel}>
+                                            <div className={styled.leftPanel} data-aos="fade-up" data-aos-duration="700">
                                                 <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/1a0b9e70-a791-4ea5-8ff3-c5c2b077ecc0-telescope.jpg" width={266} height={375} />
                                             </div>
 
                                             <div className={styled.rightPanel}>
-                                                <small className={styled.small}><Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/cffc1716-60a4-40f6-9a9a-01722546cea8-Ellipse%206044.svg" width={8} height={8} /> Our Blockchain Consulting Process</small>
-                                                <h1 className={styled.title}>Discovery and Feasibility Analysis</h1>
+                                                <small className={styled.small} data-aos="fade-up" data-aos-duration="700"><Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/cffc1716-60a4-40f6-9a9a-01722546cea8-Ellipse%206044.svg" width={8} height={8} /> Our Blockchain Consulting Process</small>
+                                                <h1 className={styled.title} data-aos="fade-up" data-aos-duration="800">Discovery and Feasibility Analysis</h1>
 
-                                                <ul className={styled.itemList}>
+                                                <ul className={styled.itemList} data-aos="fade-up" data-aos-duration="900">
                                                     <li className={styled.discription}><span className={styled.count}>1</span> We systematically analyze client requirements, existing processes, goals, and the feasibility of blockchain implementation.</li>
                                                     <li className={styled.discription}><span  className={styled.count}>2</span>  Identify powerful use cases where blockchain can deliver significant value, thus ensuring its feasibility.</li>
                                                     <li className={styled.discription}><span  className={styled.count}>3</span>  Establish clear project scope, goals, constraints, and success criteria.</li>
@@ -113,12 +121,12 @@ const BlockChain = () => {
 
             <section className={styled.AI_Models_Wrapper}>
                 <div className="container">
-                    <h2 className={styled.heading}>AI Blockchain Development Platforms We Work On !</h2>
+                    <h2 className={styled.heading} data-aos="fade-up" data-aos-duration="700">AI Blockchain Development Platforms We Work On !</h2>
 
                     <ul className={styled.ai_service_wrapper}>
                         {
                             AiModal.map((item) => (
-                                <li className={styled.brand}>
+                                <li className={styled.brand} data-aos="fade-up" data-aos-duration="800">
                                     <Image src={item.url} width={60} height={60} />
                                     <h5 className={styled.title}>{item.title}</h5>
                                 </li>
@@ -131,11 +139,11 @@ const BlockChain = () => {
 
             <section className={styled.form_wrapper}>
                 <div className="container">
-                    <h2 className={styled.heading}>Start a conversation by filling the form</h2>
-                    <p className={styled.description}>Complete the form below and we will contact you to discuss your project. <br />
+                    <h2 className={styled.heading} data-aos="fade-up" data-aos-duration="700">Start a conversation by filling the form</h2>
+                    <p className={styled.description} data-aos="fade-up" data-aos-duration="800">Complete the form below and we will contact you to discuss your project. <br />
                         Your information will be kept confidential.</p>
 
-                    <form className={styled.form}>
+                    <form className={styled.form} data-aos="fade-up" data-aos-duration="900">
                         <div className={styled.row}>
                             <div className={styled.input_wrapper}>
                                 <input type="text" className={styled.form_control} placeholder='Name' />
