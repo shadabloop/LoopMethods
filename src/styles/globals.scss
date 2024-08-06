@@ -35,6 +35,8 @@ body {
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a {
@@ -50,6 +52,10 @@ ul {
 .swiper-button-next {
   color: var(--black) !important;
   // background-color: var(--bg-light) !important;
+
+  @media (max-width:480px) {
+    display: none !important;
+  }
   &:after{
     font-size: 22px !important;
   }
@@ -90,8 +96,9 @@ ul {
 .AIProfessionals_wrapper {
   .swiper {
     .swiper-pagination {
-      left: 44% !important;
+      left: 50% !important;
       bottom: 1% !important;
+      transform: translateX(-50%) !important;
 
       .swiper-pagination-bullet {
         width: 32px;

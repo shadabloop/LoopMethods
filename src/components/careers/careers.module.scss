@@ -1,13 +1,13 @@
 .Careers_wrapper {
     margin-top: 100px;
-    padding: 80px 0;
+    padding: 30px 0;
 
     .bannerWrapper {
         .banner {
             display: flex;
             align-items: center;
             justify-content: space-between;
-
+            gap: 163px;
             .leftPanel {
                 flex: 1;
 
@@ -39,11 +39,20 @@
 
             .rightPanel {
                 overflow: hidden;
-                width: 100%;
                 flex: 1;
                 display: flex;
                 align-items: flex-end;
                 justify-content: end;
+                height: 510px;
+                width: 510px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                    display: block;
+                    margin: auto;
+                }
             }
         }
     }

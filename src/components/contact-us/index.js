@@ -17,8 +17,13 @@ const ContactUsPage = () => {
                                 <p className={styled.discription}>We'd love to hear from you! Whether you have a question, need a consultation, or want to discuss a project, our team is ready to assist. Reach out to us today to explore how our innovative solutions can help your business thrive.</p>
                                 <Button className={styled.service_btn}>Check our services</Button>
                             </div>
-                            <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/e3881bcb-6c99-4900-a59b-22ae90544d62-isometric%20view%20of%20colleagues%20working%20and%20talking%20in%20the%20office.png" width={595} height={456} />
+                            <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
+                                <Image 
+                                    src="https://frequencyimage.s3.ap-south-1.amazonaws.com/865b0830-75ed-4185-ae33-8ca4383a5792-group-people-sitting-around-table.jpg"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                />
                             </div>
                         </div>
                     </div>

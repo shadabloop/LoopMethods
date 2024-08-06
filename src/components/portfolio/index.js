@@ -20,8 +20,13 @@ const PortfolioPage = () => {
                                 <h1 className={styled.title}><span>Portfolio</span></h1>
                                 <p className={styled.discription}>Lorem ipsum dolor sit amet consectetur. Quisque nibh pulvinar metus nunc vivamus pharetra lacus. Cum rhoncus egestas quis leo rhoncus tristique enim malesuada. Dignissim et a metus nec. Nunc laoreet enim volutpat molestie.</p>
                             </div>
-                            <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/171d307c-2618-4a1c-be25-73da6da39769-top%20view%20of%20laptop%2C%20cup%20of%20coffee%2C%20notebooks%20and%20letters.png" width={522} height={512} />
+                            <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
+                                <Image
+                                    src="https://frequencyimage.s3.ap-south-1.amazonaws.com/4a72e420-8328-46ca-8a74-226923a07183-american-professional-lifestyle-concept-3d-flat-icon-person-with-laptop.png"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                />
                             </div>
                         </div>
                     </div>
@@ -46,7 +51,7 @@ const PortfolioPage = () => {
                                         <p className={styled.description}>{item.subTitle}</p>
                                         <h3 className={styled.subTitle}>{item.description}</h3>
                                         <div className={styled.icon}>
-                                            Know more 
+                                            Know more
                                             <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/b407dd2c-2cc8-4dae-af09-62d91855cf5a-teenyicons_arrow-solid.svg" width={24} height={24} />
                                         </div>
 

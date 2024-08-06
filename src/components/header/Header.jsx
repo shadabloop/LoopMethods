@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 // import { useRouter } from 'next/router';
 
-const Header = () => {
+const Header = ({ isOpenNavbar, setIsOpenNavbar }) => {
     // const router = useRouter()
     const pathname = usePathname()
     const [scrolled, setScrolled] = useState(false);
@@ -30,6 +30,10 @@ const Header = () => {
     const handleContactUs = () => {
         // router.push('/contact-us', { scroll: false })
         window.open('/contact-us', '_blank', 'noopener,noreferrer');
+    }
+
+    const handleNavbar = () => {
+        setIsOpenNavbar(!isOpenNavbar)
     }
 
     const isRoutes = ["/service", "/AI-Ml", "/web3", "/blockchain", "/software", "/internet-of-things"]
@@ -86,7 +90,14 @@ const Header = () => {
                         <Link href="/about-us" className={`${styles.menuItem} ${pathname === "/about-us" ? styles.active : ""}`}>About Us</Link>
                         <Link href="/portfolio" className={`${styles.menuItem} ${pathname === "/portfolio" ? styles.active : ""}`}>Portfolio</Link>
                     </nav>
-                    <button className={styles.contactButton} onClick={handleContactUs}>Contact us</button>
+                    <div className={styles.group_btn}>
+                        <button className={styles.contactButton} onClick={handleContactUs}>Contact us</button>
+                        <button className={styles.humberger} onClick={handleNavbar}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </header >

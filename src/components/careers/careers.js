@@ -15,9 +15,17 @@ const CareersPage = () => {
                                 <h1 className={styled.title}>Apply <span>today!</span></h1>
                                 <p className={styled.discription}>At Loopmethods, we're looking for passionate, innovative thinkers to help shape the future of technology. Explore exciting career opportunities, work on cutting-edge projects, and grow with a dynamic team committed to excellence. Your journey to making an impact starts here. </p>
                             </div>
-                            <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/a3c27ee0-46a1-4b6c-83b8-c4a18c273d8f-young%20man%20standing%20at%20his%20desk.png" width={466} height={424} />
+                            <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
+                                <Image 
+                                    src="https://frequencyimage.s3.ap-south-1.amazonaws.com/40eccf9a-0b63-4d5d-9269-208825844c26-photo-cartoon-businesswoman-working-with-laptop-having-great-idea-3d-illustration-generative-ai%20%281%29.png"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                />
                             </div>
+                            {/* <div className={styled.rightPanel}>
+                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/235d83df-a7d7-4a4a-8117-e954653c420e-photo-cartoon-businesswoman-working-with-laptop-having-great-idea-3d-illustration-generative-ai.png" width={466} height={424} />
+                            </div> */}
                         </div>
                     </div>
                 </div>

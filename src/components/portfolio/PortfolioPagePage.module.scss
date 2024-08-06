@@ -18,7 +18,8 @@
                     line-height: 70px;
                     margin-bottom: 20px;
                     animation: fadeInUp 0.8s ease-in-out;
-                    span{
+
+                    span {
                         color: var(--primary);
                     }
                 }
@@ -38,11 +39,21 @@
 
             .rightPanel {
                 overflow: hidden;
-                width: 100%;
                 flex: 1;
                 display: flex;
                 align-items: flex-end;
                 justify-content: end;
+                width: 510px;
+                height: 510px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                    display: block;
+                    margin: auto;
+                    transform: scaleX(-1);
+                }
             }
         }
     }
@@ -51,12 +62,12 @@
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translate3d(0,50px,0);
+        transform: translate3d(0, 50px, 0);
     }
 
     to {
         opacity: 1;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
@@ -121,6 +132,7 @@
             transition: all .3s ease;
             cursor: pointer;
             overflow: hidden;
+
             &:hover {
                 background: var(--primary);
 
@@ -129,11 +141,12 @@
                 .description {
                     color: var(--white);
                 }
-                
+
                 .icon {
                     transform: translateX(0);
                     gap: 20px;
-                    img{
+
+                    img {
                         filter: brightness(0) invert(1);
                     }
                 }

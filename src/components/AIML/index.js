@@ -77,7 +77,7 @@ const AIMLPage = () => {
                                     <div className={styled.bannerWrapper}>
                                         <div className={styled.banner}>
                                             <div className={styled.leftPanel}>
-                                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/7a4141fc-14aa-46ea-9b53-314ea3c120fb-ordinary-human-job-performed-by-anthropomorphic-robot.jpg"
+                                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/e1697801-6a64-4111-9bf2-d1f5632b3e4f-3d-render-man-working-computer.jpg"
                                                     width={0}
                                                     height={0}
                                                     sizes="100vw"

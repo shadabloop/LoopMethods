@@ -15,8 +15,13 @@ const AboutUsPage = () => {
                                 <p className={styled.discription}>Offer comprehensive e-business solutions, including strategy, design, development, and technology services across various platforms. With a global team and presence, we ensure competitive advantage through cutting-edge innovation and user-centric design.</p>
                                 <Button className={styled.service_btn}>Check our services</Button>
                             </div>
-                            <div className={styled.rightPanel}>
-                                <Image src="https://frequencyimage.s3.ap-south-1.amazonaws.com/e3881bcb-6c99-4900-a59b-22ae90544d62-isometric%20view%20of%20colleagues%20working%20and%20talking%20in%20the%20office.png" width={595} height={456} />
+                            <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
+                                <Image 
+                                    src="https://frequencyimage.s3.ap-south-1.amazonaws.com/8eb1f3f8-6868-4cfb-b344-5f76d86d5b7d-two-men-sit-chairs-with-laptops-one-has-blue-shirt.png"
+                                    width={0}
+                                    height={0}
+                                    sizes="100vw"
+                                />
                             </div>
                         </div>
                     </div>
