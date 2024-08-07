@@ -28,7 +28,7 @@ const SoftwarePage = () => {
                                 <Image data-aos="fade-up" data-aos-duration="700" src="https://frequencyimage.s3.ap-south-1.amazonaws.com/585dda45-7e53-4b74-8e97-b9dcd8b000b1-Services_Enterprise-Application-Development_Custom-Software-Engineering.webp" width={556} height={600} />
                             </div> */}
                             <div className={styled.rightPanel} data-aos="fade-up" data-aos-duration="700">
-                                <Image 
+                                <Image
                                     src="https://frequencyimage.s3.ap-south-1.amazonaws.com/31a16a63-44ed-4957-9b61-00ffa978f04f-new-generation-artificial-inteligence-robotic-tech-mechines.jpg"
                                     width={0}
                                     height={0}
@@ -107,9 +107,15 @@ const SoftwarePage = () => {
                                 <SwiperSlide className={styled.bannerCard} key={key}>
                                     <div className={styled.bannerWrapper}>
                                         <div className={styled.banner}>
-                                            <div className={styled.leftPanel}>
-                                                <Image data-aos="fade-up" data-aos-duration="700"  src="https://frequencyimage.s3.ap-south-1.amazonaws.com/4b0dacd7-52bf-4ec4-8c47-c3fe0ddfcfde-smartphone%20balancing%20on%20abstract%20figures.png" width={302} height={401} />
-
+                                            <div className={styled.leftPanel} >
+                                                <Image
+                                                    src="https://frequencyimage.s3.ap-south-1.amazonaws.com/4b0dacd7-52bf-4ec4-8c47-c3fe0ddfcfde-smartphone%20balancing%20on%20abstract%20figures.png"
+                                                    width={0}
+                                                    height={0}
+                                                    sizes="100vw"
+                                                    style={{ width: '100%' }}
+                                                    data-aos="fade-up" data-aos-duration="700"
+                                                />
                                             </div>
 
                                             <div className={styled.rightPanel}>

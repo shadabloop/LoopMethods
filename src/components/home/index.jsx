@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.css';
 import "./HomePage.module.scss"
 import Logo from "@/assets/brand-logo/logo.svg"
 import { Pagination, Autoplay } from 'swiper/modules';
@@ -15,6 +16,9 @@ import CountUp from 'react-countup';
 import ColoredLastWord from '@/common/ColoredLastWord';
 
 const HomePage = () => {
+    const [width, setWidth] = useState(0);
+    const widthElementRef = useRef(null);
+
 
     const elementRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +42,17 @@ const HomePage = () => {
         return () => observer.disconnect();
     }, []);
 
+    
+  
+    useEffect(() => {
+      const element = widthElementRef.current;
+      if (element) {
+        const elementWidth = element.offsetWidth;
+        setWidth(elementWidth - 0);
+      }
+    }, []);
 
+    console.log(width,"width")
 
 
     const HandleTab = (val) => {
@@ -307,15 +321,15 @@ const HomePage = () => {
                 <div className="container">
                     <h5 className={styled.title} data-aos="fade-up" data-aos-duration="700">Featured Cases</h5>
 
-                    <div className={styled.taskManagement_wrap}>
+                    <div className={styled.taskManagement_wrap} ref={widthElementRef}>
                         <div className={styled.taskContent}>
                             <h3 className={styled.main_kind} data-aos="fade-up" data-aos-duration="700">{currentContent.title}</h3>
                             <p className={styled.description} data-aos="fade-up" data-aos-duration="800">{currentContent.description}</p>
                             <Button data-aos="fade-up" data-aos-duration="900">read more</Button>
                         </div>
-                        <div className={`Featured-Cases ${styled.taskSlider}`} data-aos="fade-up" data-aos-duration="700">
+                        <div  className={`Featured-Cases ${styled.taskSlider}`} style={{ width: `${width}px`}} data-aos="fade-up" data-aos-duration="700">
                             <Swiper
-                                slidesPerView={2.5}
+                                slidesPerView={1}
                                 spaceBetween={3}
                                 loop={true}
                                 pagination={{
@@ -324,20 +338,23 @@ const HomePage = () => {
                                 }}
                                 onSlideChange={handleSlideChange} // Event listener for slide change
                                 modules={[Pagination]}
-                                // breakpoints={{
-                                //     640: {
-                                //         slidesPerView: 2,
-                                //         spaceBetween: 20,
-                                //     },
-                                //     768: {
-                                //         slidesPerView: 4,
-                                //         spaceBetween: 40,
-                                //     },
-                                //     1024: {
-                                //         slidesPerView: 5,
-                                //         spaceBetween: 50,
-                                //     },
-                                // }}
+                                breakpoints={{
+                                    640: {
+                                        slidesPerView: 1
+                                    },
+                                    767: {
+                                        slidesPerView: 2.5
+                                    },
+                                    768: {
+                                        slidesPerView: 2.5
+                                    },
+                                    800: {
+                                        slidesPerView: 3
+                                    },
+                                    1024: {
+                                        slidesPerView: 2.5
+                                    }
+                                }}
                                 className={styled.mySwiper}
                             >
                                 {featureSliderData.map((item, index) => (

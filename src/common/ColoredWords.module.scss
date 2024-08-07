@@ -9,6 +9,10 @@
     margin-bottom: 20px;
     animation: fadeInUp 1.3s ease-in-out;
     // width: 95%;
+    @media (max-width:1199px) {
+        font-size: 32px;
+        line-height: 42px;
+    }
     .coloredWord {
         color: var(--primary);
     }
