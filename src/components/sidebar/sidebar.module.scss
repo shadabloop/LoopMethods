@@ -18,7 +18,7 @@
 
     .navigation_wrap {
         z-index: 1;
-        width: 240px;
+        width: 260px;
         background-color: var(--white);
         transform: translateX(-100%);
         left: 0;
@@ -61,10 +61,10 @@
                 position: relative;
 
                 &:hover {
-                    .dropdown_List {
-                        visibility: visible;
-                        transform: translateY(0);
-                    }
+                    // .dropdown_List {
+                    //     visibility: visible;
+                    //     transform: translateY(0);
+                    // }
                 }
 
                 .menuItem {
@@ -107,27 +107,20 @@
                 }
 
                 .dropdown_List {
-                    position: absolute;
-                    top: 40px;
-                    left: 0;
                     background-color: var(--white);
                     color: var(--black);
                     display: flex;
                     flex-direction: column;
-                    gap: 32px;
-                    padding: 20px 22px;
+                    // gap: 18px;
                     border-radius: 6px;
-                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px;
-                    // min-width: 142px;
-                    transform: translateY(15px);
-                    transition: all .2s linear;
-
-                    visibility: hidden;
+                    transition: all 0.2s linear;
+                    transition: height 0.3s ease;
+                    overflow: hidden;
 
                     .dropdown_Item {
                         color: var(--secondary);
                         font-family: var(--font-mulish);
-                        font-size: 16px;
+                        font-size: 14px;
                         font-style: normal;
                         font-weight: 700;
                         line-height: 20px;
@@ -137,7 +130,11 @@
                         white-space: nowrap;
                         gap: 12px;
                         transition: color .2s linear;
+                        padding: 8px 20px;
 
+                        &:first-child{
+                            margin-top: 15px;
+                        }
                         .icon {
                             display: flex;
                             align-items: center;
